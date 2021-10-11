@@ -1,12 +1,14 @@
 import './App.css';
-import Cars from './Cars'
+// import Cars from './Cars'
 // import Counter from './Counter'
 // import Thing from './Thing'
+import Inventory from './Inventory'
 
 function App() {
   return (
     <div>
-      <Cars />
+      <Inventory />
+      {/* <Cars /> */}
       {/* <Counter />
       <Thing /> */}
     </div>

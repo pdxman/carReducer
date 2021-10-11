@@ -3,7 +3,7 @@ import React, { useReducer } from 'react'
 //comment
 
 const initialState = {
-    additionlaPrice: 0, 
+    additionalPrice: 0, 
     car: {
         price: 26395,
         name: "2021 Electric Mustang",
@@ -103,7 +103,7 @@ export default function Cars(){
     
             <div className="content">
             <h4>
-              Total Amount: ${state.car.price + state.additionalPrice}
+              Total Amount: {`${state.car.price + state.additionalPrice}`}
             </h4>
           </div>
           </div>
